@@ -1,0 +1,23 @@
+{
+  "name": "anypic-react",
+  "version": "1.0.0",
+  "description": "Demo project for React+Parse",
+  "main": "anypic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajay Ramesh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0"
+  },
+  "dependencies": {
+    "history": "^1.13.1",
+    "parse": "^1.6.9",
+    "parse-react": "^0.5.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-router": "^1.0.0"
+  }
+}
