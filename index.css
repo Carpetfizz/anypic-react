@@ -1,0 +1,24 @@
+.thumb {
+	height: 120px;
+	width: auto;
+	margin: 5px;
+}
+
+.user-info {
+	width: 100%;
+	text-align: center;
+}
+
+.user-info > .user-picture { 
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.photo {
+	margin-bottom: 50px;
+}
+
+.photo-container {
+	text-align: center;
+}
