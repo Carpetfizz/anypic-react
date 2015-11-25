@@ -8,9 +8,6 @@ var Route = require('react-router').Route;
 var IndexRoute = require('react-router').IndexRoute;
 var Link = require('react-router').Link;
 
-var createBrowserHistory = require('history/lib/createBrowserHistory');
-
-
 Parse.initialize("PklSbwxITu46cOumt6tdWw8Jtg2urg0vj0CrbLr0", "ipsJoKYYfvE0Fmlu3ThuUQOKdJ79jbuATO2AhmEg");
 
 var AnyPic = React.createClass({
@@ -105,7 +102,7 @@ var PhotoView = React.createClass({
 });
 
 ReactDOM.render(
-	<Router history={createBrowserHistory()}>
+	<Router>
 		<Route path="/" component={AnyPic}>
 			<IndexRoute component={PhotoList} />
 			<Route path="p/:photoId" component={PhotoView} />
